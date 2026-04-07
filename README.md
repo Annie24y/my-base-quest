@@ -1,6 +1,3 @@
 my-base-quest
-# My Base Quest 🚀
-
-Tracking my progress with Base mini apps, USDC farming, and my learning goals.  
-
-Follow along as I experiment, learn, and grow in the Web3 space!
+This repo documents my journey exploring Base mini apps, USDC farming, and learning Web3 development.  
+I share experiments, insights, and progress along the way.
