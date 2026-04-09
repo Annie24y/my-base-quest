@@ -5,3 +5,4 @@ This repo documents my journey exploring Base mini apps, USDC farming, and learn
 I share experiments, insights, and progress along the way.
 ## Table of Contents
 - [About](#about)
+- [Progress Tracker](#progress-tracker)
