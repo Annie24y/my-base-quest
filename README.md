@@ -12,3 +12,10 @@ I share experiments, insights, and progress along the way.
 - Day 1: Created repo and initial README
 - Day 2: Learned basics of Base ecosystem
 - Day 3: Explored mini apps
+## Learning Goals
+
+- Understand the Base ecosystem
+- Explore and test mini apps
+- Learn USDC farming basics
+- Build simple Web3 projects
+- Improve GitHub activity and consistency
