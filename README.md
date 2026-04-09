@@ -6,3 +6,4 @@ I share experiments, insights, and progress along the way.
 ## Table of Contents
 - [About](#about)
 - [Progress Tracker](#progress-tracker)
+- [Learning Goals](#learning-goals)
