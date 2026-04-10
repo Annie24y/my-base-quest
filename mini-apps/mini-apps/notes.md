@@ -7,3 +7,12 @@
 
 ## Thoughts
 Mini apps on Base are lightweight and easy to test. I plan to explore more and try building one soon.
+## Observations
+- Mini apps are simple and fast to load
+- Wallet connection is a key feature
+- Most apps focus on user interaction and rewards
+
+## Next Steps
+- Try interacting with more mini apps
+- Document differences between them
+- Attempt to build a simple mini app
