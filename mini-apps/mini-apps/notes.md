@@ -16,3 +16,16 @@ Mini apps on Base are lightweight and easy to test. I plan to explore more and t
 - Try interacting with more mini apps
 - Document differences between them
 - Attempt to build a simple mini app
+## Observations
+- Mini apps are simple and fast to load
+- Wallet connection is a key feature
+- Many apps focus on rewards and engagement
+
+## What I Learned
+- Web3 apps rely heavily on wallet interaction
+- User experience is simpler compared to traditional apps
+
+## Next Steps
+- Explore more mini apps
+- Compare features between apps
+- Try building a simple version
