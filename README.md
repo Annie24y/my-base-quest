@@ -13,6 +13,7 @@ I share experiments, insights, and progress along the way.
 - Day 2: Learned basics of Base ecosystem
 - Day 3: Explored mini apps
 - Day 4: Created mini-apps folder and added initial notes
+- Day 5: Expanded mini-apps notes with observations and insights
 ## Learning Goals
 
 - Understand the Base ecosystem
