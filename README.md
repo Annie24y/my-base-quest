@@ -14,6 +14,7 @@ I share experiments, insights, and progress along the way.
 - Day 3: Explored mini apps
 - Day 4: Created mini-apps folder and added initial notes
 - Day 5: Expanded mini-apps notes with observations and insights
+- Day 6: Added USDC farming research notes and initial exploration
 ## Learning Goals
 
 - Understand the Base ecosystem
