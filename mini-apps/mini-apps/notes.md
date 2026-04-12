@@ -29,3 +29,18 @@ Mini apps on Base are lightweight and easy to test. I plan to explore more and t
 - Explore more mini apps
 - Compare features between apps
 - Try building a simple version
+## Mini App Idea
+
+### Concept
+- A simple app where users connect wallet and claim rewards
+
+### Features
+- Wallet connection
+- Claim button
+- Display user balance or NFT
+
+### Inspiration
+- Based on mini apps that focus on rewards and engagement
+
+### Goal
+- Build a simple version of this as my first mini app
