@@ -1,3 +1,4 @@
 function handleClick() {
-  document.getElementById("status").innerText = "Button clicked!";
+document.getElementById("status").textContent = "Button clicked!";
 }
+
