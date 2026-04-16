@@ -1,4 +1,7 @@
-function handleClick() {
-document.getElementById("status").textContent = "Button clicked!";
+
+function resetClick() {
+  count = 0;
+  document.getElementById("status").textContent =
+    "Counter reset";
 }
 
