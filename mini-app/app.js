@@ -12,6 +12,13 @@ function handleClick() {
     "Clicked " + count + " times";
 }
 
+function decreaseClick() {
+  count--;
+  localStorage.setItem("count", count);
+  document.getElementById("status").textContent =
+    "Clicked " + count + " times";
+}
+
 function resetClick() {
   count = 0;
   localStorage.setItem("count", count);
