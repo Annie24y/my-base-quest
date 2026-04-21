@@ -1,3 +1,4 @@
+
 let count = localStorage.getItem("count") || 0;
 count = Number(count);
 
@@ -13,10 +14,12 @@ function handleClick() {
 }
 
 function decreaseClick() {
-  count--;
-  localStorage.setItem("count", count);
-  document.getElementById("status").textContent =
-    "Clicked " + count + " times";
+  if (count > 0) {
+    count--;
+    localStorage.setItem("count", count);
+    document.getElementById("status").textContent =
+      "Clicked " + count + " times";
+  }
 }
 
 function resetClick() {
@@ -25,4 +28,3 @@ function resetClick() {
   document.getElementById("status").textContent =
     "Counter reset";
 }
-
