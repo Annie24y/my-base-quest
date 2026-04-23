@@ -27,3 +27,9 @@ button:disabled {
   font-size: 22px;
   margin-top: 20px;
 }
+
+/* Dark mode */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
