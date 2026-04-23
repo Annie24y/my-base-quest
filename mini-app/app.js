@@ -6,11 +6,16 @@ count = Number(count);
 document.getElementById("status").textContent =
   "Clicked " + count + " times";
 
+function updateButtons() {
+  document.getElementById("decreaseBtn").disabled = count === 0;
+}
+
 function handleClick() {
   count++;
   localStorage.setItem("count", count);
   document.getElementById("status").textContent =
     "Clicked " + count + " times";
+  updateButtons();
 }
 
 function decreaseClick() {
@@ -20,6 +25,7 @@ function decreaseClick() {
     document.getElementById("status").textContent =
       "Clicked " + count + " times";
   }
+  updateButtons();
 }
 
 function resetClick() {
@@ -27,4 +33,8 @@ function resetClick() {
   localStorage.setItem("count", count);
   document.getElementById("status").textContent =
     "Counter reset";
+  updateButtons();
 }
+
+// initialize button state on load
+updateButtons();
