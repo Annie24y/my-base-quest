@@ -1,4 +1,3 @@
-
 let count = localStorage.getItem("count") || 0;
 count = Number(count);
 
@@ -36,5 +35,9 @@ function resetClick() {
   updateButtons();
 }
 
-// initialize button state on load
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
+}
+
+// initialize
 updateButtons();
