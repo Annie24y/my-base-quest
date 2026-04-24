@@ -6,17 +6,19 @@
 </head>
 <body>
 
-  <h1>My First Mini App</h1>
+  <div class="container">
+    <h1>My First Mini App</h1>
 
-  <button onclick="handleClick()">+1</button>
-  <button id="decreaseBtn" onclick="decreaseClick()">-1</button>
-  <button onclick="resetClick()">Reset</button>
+    <div class="buttons">
+      <button onclick="handleClick()">+1</button>
+      <button id="decreaseBtn" onclick="decreaseClick()">-1</button>
+      <button onclick="resetClick()">Reset</button>
+    </div>
 
-  <br><br>
+    <button class="dark-btn" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
 
-  <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
-
-  <p id="status">Waiting...</p>
+    <p id="status">Waiting...</p>
+  </div>
 
   <script src="app.js"></script>
 </body>
