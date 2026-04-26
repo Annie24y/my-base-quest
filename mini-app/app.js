@@ -1,24 +1,28 @@
 let count = localStorage.getItem("count") || 0;
 count = Number(count);
 
-// show saved value on load
-updateStatus();
-
+// update status text
 function updateStatus() {
-  let text = count === 1 
-    ? "Clicked 1 time" 
+  let text = count === 1
+    ? "Clicked 1 time"
     : "Clicked " + count + " times";
 
   document.getElementById("status").textContent = text;
 }
 
+// update button state
 function updateButtons() {
   document.getElementById("decreaseBtn").disabled = count === 0;
 }
 
+// save count
+function saveCount() {
+  localStorage.setItem("count", count);
+}
+
 function handleClick() {
   count++;
-  localStorage.setItem("count", count);
+  saveCount();
   updateStatus();
   updateButtons();
 }
@@ -26,7 +30,7 @@ function handleClick() {
 function decreaseClick() {
   if (count > 0) {
     count--;
-    localStorage.setItem("count", count);
+    saveCount();
   }
   updateStatus();
   updateButtons();
@@ -34,7 +38,7 @@ function decreaseClick() {
 
 function resetClick() {
   count = 0;
-  localStorage.setItem("count", count);
+  saveCount();
   document.getElementById("status").textContent = "Counter reset";
   updateButtons();
 }
@@ -55,4 +59,5 @@ if (localStorage.getItem("darkMode") === "enabled") {
 }
 
 // initialize
+updateStatus();
 updateButtons();
