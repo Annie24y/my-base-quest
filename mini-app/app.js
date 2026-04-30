@@ -58,6 +58,13 @@ if (localStorage.getItem("darkMode") === "enabled") {
   document.body.classList.add("dark-mode");
 }
 
+// keyboard support (press Enter to increment)
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    handleClick();
+  }
+});
+
 // initialize
 updateStatus();
 updateButtons();
