@@ -6,6 +6,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
@@ -15,6 +16,7 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   text-align: center;
   width: 300px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 h1 {
@@ -28,10 +30,26 @@ h1 {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: transform 0.1s ease, opacity 0.2s ease;
 }
 
 .dark-btn {
   margin-top: 10px;
+}
+
+/* Hover + click */
+button:hover {
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Focus (keyboard navigation) */
+button:focus {
+  outline: 2px solid #4CAF50;
+  outline-offset: 2px;
 }
 
 button:disabled {
